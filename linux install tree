@@ -1,0 +1,6 @@
+RHEL LINUX
+VMware“虚拟机->可移动设备-〉CD/DVD”菜单，加载RHEL6.3的安装光盘，先进入“设置”菜单设置ISO镜像文件的路径，然后选择“连接”，
+连接成功后，RHEL6.3的安装光盘会自动加载到Linux的文件系统，可以在Shell终端访问光盘的文件。
+进入Packages文件：
+//cd "/media/RHEL_6.3 i386 Disc 1/Packages"  or cd /media/RHEL_6.3\ i386\ Disc\ 1/Packages/(一定要用转义字符，这里有空格）
+//rpm -ivh tree-1.5.3-2.el6.i686.rpm
